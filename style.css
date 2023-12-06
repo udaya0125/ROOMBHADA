@@ -623,9 +623,6 @@ a:hover {
   opacity: 1;
   filter: alpha(opacity=1);
 }
-
-
-
 /*======================================
 //--//-->   BOX COLAPSE SEARCH
 ======================================*/
@@ -1670,4 +1667,133 @@ footer .copyright-footer {
 
 footer .credits {
   font-size: 14px;
+}
+
+/* 
+REGISTER CSS */
+
+.divider-text {
+  position: relative;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.divider-text span {
+  padding: 7px;
+  font-size: 12px;
+  position: relative;   
+  z-index: 2;
+}
+.divider-text:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  top: 55%;
+  left: 0;
+  z-index: 1;
+}
+
+.btn-facebook {
+  background-color: #405D9D;
+  color: #fff;
+}
+.btn-twitter {
+  background-color: #42AEEC;
+  color: #fff;
+}
+select.custom-select{
+  height: calc(2.1rem + 2px);
+ }
+
+
+/* login css  */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  
+}
+.user_card {
+  height: 400px;
+  width: 350px;
+  margin-top: auto;
+  margin-bottom: auto;
+  background: white;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+
+}
+
+.form_container {
+  margin-top: 100px;
+}
+.login_btn {
+  width: 100%;
+  background: #2eca6a !important;
+  color: white !important;
+}
+.login_btn:focus {
+  box-shadow: none !important;
+  outline: 0px !important;
+}
+.login_container {
+  padding: 0 2rem;
+}
+.input-group-text {
+  background: #2eca6a !important;
+  color: white !important;
+  border: 0 !important;
+  border-radius: 0.25rem 0 0 0.25rem !important;
+}
+.input_user,
+.input_pass:focus {
+  box-shadow: none !important;
+  outline: 0px !important;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+  background-color: #2eca6a !important;
+}
+
+/* Center the login popup */
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* background-color: rgba(255, 255, 255, 0.8); Set your desired transparency */
+  z-index: 9999; /* Set a higher z-index to ensure it appears above other components */
+}
+
+/* Style the login form */
+.user_card {
+  position: relative;
+  width: 400px; /* Set your desired width */
+}
+
+/* Style the close button */
+.close_btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  z-index: 90;
+}
+
+.signupbutton{
+  cursor: pointer;
+  color: black;
+}
+.signupbutton:hover{
+  color: #2eca6a;
+  text-decoration: underline;
 }
