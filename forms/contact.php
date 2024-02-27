@@ -1,4 +1,8 @@
 <?php
+<<<<<<< HEAD
+=======
+ 
+>>>>>>> 95fa4f54dc5c26b84c58850f4a22e266c8541d23
 
   // Replace contact@example.com with your real receiving email address
   $receiving_email_address = 'RoomBhada@gmail.com';
