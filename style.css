@@ -63,6 +63,10 @@ a:hover {
   color: #ffffff;
   text-decoration: none;
 }
+.navbar.container{
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
 .container button{
   background-color: #2eca6a;
   color: #fff;
@@ -85,6 +89,28 @@ a:hover {
     font-size: 1rem;
   }
 }
+@media (min-width: 1200px){
+  .container{
+    max-width: 92% !important;
+  }
+  .navbar-brand{
+    margin-left: 0px !important;
+  }
+}
+.cross{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  font-size: 30px;
+  cursor: pointer;
+  color: #fff;
+  transition: all 0.3s ease;
+  height: 40px;
+  width: 40px;
+
+}
+
 
 .link-a:hover {
   color: #ffffff;
@@ -1691,6 +1717,9 @@ a:hover {
 .section-footer .widget-a .w-title-a {
   margin-bottom: 1rem;
 }
+.w-body-a{
+  color: #000000;
+}
 
 footer {
   background: #f3f3f3;
@@ -1707,9 +1736,14 @@ footer .credits {
   font-size: 14px;
 }
 
+<<<<<<< HEAD
 
 /* 
  REGISTER CSS */
+=======
+/* 
+REGISTER CSS */
+>>>>>>> 0f032c17a9beaf3d38e200a8357c283a6e4d43e4
 
 .divider-text {
   position: relative;
@@ -1773,7 +1807,11 @@ html {
 }
 
 .form_container {
+<<<<<<< HEAD
   margin-top: 100px;
+=======
+  margin-top: 0px;
+>>>>>>> 0f032c17a9beaf3d38e200a8357c283a6e4d43e4
 }
 .login_btn {
   width: 100%;
@@ -1800,7 +1838,16 @@ html {
 }
 .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
   background-color: #2eca6a !important;
+<<<<<<< HEAD
 }
+=======
+  
+}
+.custom-control-label{
+  padding-left: 20px;
+}
+
+>>>>>>> 0f032c17a9beaf3d38e200a8357c283a6e4d43e4
 
 /* Center the login popup */
 .popup {
